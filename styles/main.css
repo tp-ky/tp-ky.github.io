@@ -1,0 +1,29 @@
+/* main.css */
+
+/* Basic styling for full-page sections */
+html, body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
+.page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  scroll-snap-align: start; /* Enables smooth scrolling between sections */
+}
+
+/* Styling for images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Background colors for pages */
+#page1 { background-color: lightblue; }
+#page2 { background-color: lightgreen; }
+#page3 { background-color: lightcoral; }
+#page4 { background-color: lightyellow; }
