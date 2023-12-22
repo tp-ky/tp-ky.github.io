@@ -10,14 +10,30 @@
       justify-content: center;
       align-items: center;
       font-size: 3em;
+      scroll-snap-align: start; /* Enables smooth scrolling between sections */
     }
-    /* Additional styling and animations can be added here */
+    /* Styling for images */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
   </style>
 </head>
 <body>
-  <section style="background-color: lightblue;">Section 1</section>
-  <section style="background-color: lightgreen;">Section 2</section>
-  <section style="background-color: lightcoral;">Section 3</section>
-  <!-- Add more sections as needed -->
+  <!-- First Page -->
+  <section style="background-color: lightblue;">
+    <img src="image1.jpg" alt="Image 1">
+  </section>
+
+  <!-- Second Page -->
+  <section style="background-color: lightgreen;">
+    <img src="image2.jpg" alt="Image 2">
+  </section>
+
+  <!-- Third Page -->
+  <section style="background-color: lightcoral;">Page 3</section>
+
+  <!-- Fourth Page -->
+  <section style="background-color: lightyellow;">Page 4</section>
 </body>
 </html>
