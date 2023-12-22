@@ -2,38 +2,21 @@
 <html>
 <head>
   <title>Scroll Down Website</title>
-  <style>
-    /* Basic styling for full-page sections */
-    section {
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 3em;
-      scroll-snap-align: start; /* Enables smooth scrolling between sections */
-    }
-    /* Styling for images */
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="styles/main.css"> <!-- Link to main CSS file -->
 </head>
 <body>
-  <!-- First Page -->
-  <section style="background-color: lightblue;">
+  <section class="page" id="page1">
     <img src="image1.jpg" alt="Image 1">
   </section>
 
-  <!-- Second Page -->
-  <section style="background-color: lightgreen;">
+  <section class="page" id="page2">
     <img src="image2.jpg" alt="Image 2">
   </section>
 
-  <!-- Third Page -->
-  <section style="background-color: lightcoral;">Page 3</section>
-
-  <!-- Fourth Page -->
-  <section style="background-color: lightyellow;">Page 4</section>
+  <section class="page" id="page3">Page 3</section>
+  
+  <section class="page" id="page4">Page 4</section>
+  
+  <script src="scripts/main.js"></script> <!-- Link to main JavaScript file -->
 </body>
 </html>
