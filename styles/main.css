@@ -27,3 +27,11 @@ img {
 #page2 { background-color: lightgreen; }
 #page3 { background-color: lightcoral; }
 #page4 { background-color: lightyellow; }
+
+
+/* Footer styling */
+footer {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 10px 0;
+}
