@@ -1,2 +1,2 @@
 # Twilight Psychology PLLC
-Website for Twilight Psychology -- coming soon.
+Website for Twilight Psychology.
