@@ -1,2 +1,2 @@
-# Twilight Psychology, PLLC
-Website for Twilight Psychology generated at www.psychologytesting.online
+# Create website for online tests in psychology
+Website at www.psychologytesting.online
